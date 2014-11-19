@@ -1,0 +1,136 @@
+/* 
+  GIS Day Custom Stylesheet
+  http://www.gisday.com/
+
+  Built on: April 11, 2013
+
+ */
+
+body {
+	color: #4d4d4d;
+	background-color:#fff;
+	font-size: 14px;
+}
+a,
+a:visited {
+	color: #008bb4;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+a.BtnGreen, a.BtnOrange, a.BtnBlue, a.BtnDisabled {
+	color: #fff;
+	text-decoration: none;
+}
+.BtnGreen:hover , .BtnOrange:hover , .BtnBlue:hover , .BtnDisabled:hover  {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+h1 { 
+	color: #008bb4;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 27px;
+	font-weight: 400; 
+}
+h2 { 
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 22px;
+	font-weight: 400;
+	margin: 20px 0 10px 0; 
+}
+
+h3 { color: #000;
+	font-family: Arial, Helvetica, sans-serif;  
+	font-size: 18px;
+	font-weight: 400; 
+}
+
+ul, ol {
+	margin: 15px 0;
+	padding-left: 1px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+ul li,
+ol li {
+	background: url('../graphics/arrow.jpg') no-repeat scroll 1px 3px;
+  padding-left: 20px;
+	margin: 3px 0 0 0;
+}
+
+.fileInfo {
+  color: #999999;
+  font-size: 9px;
+  font-weight: normal !important;
+}
+
+
+
+/* Page Wrapper */
+#wrapper {
+	border-left:1px solid #ededed;
+  border-right:1px solid #ededed;
+  -webkit-box-shadow: 0 0 15px #ccc;
+  -moz-box-shadow: 0 0 15px #ccc;
+  -o-box-shadow: 0 0 15px #ccc;
+  box-shadow: 0 0 15px #ccc;
+  margin: 0 auto;
+  padding: 20px 0;
+	width: 1020px;
+}
+
+/* header */
+header {
+  /*border-bottom: 1px solid #b2b2b2;
+	padding-bottom: 10px;*/
+}
+header #logo {
+	background-image: url('../graphics/gisday_logo.png');
+  background-repeat: no-repeat;
+  display: block;
+  height: 80px;
+  margin-top: 10px;
+	width: 250px;
+}
+header .headerTopText {
+  color: #6d6e71;
+  font-weight: 400;
+  margin-top: 35px;
+  float: right;
+}
+header .headerTopText span {
+  color: #008bb4;
+}
+
+#banner {
+  background-position: top center;
+  /*border-bottom: 1px solid #b2b2b2;*/
+  height: 350px;
+  margin: 0;
+  width: 100%;
+}
+
+/* Content Area */
+#content {
+  margin: 20px 0 0 0;
+}
+
+/* Right Aside */
+#right {}
+#right h2 {
+  font-size: 18px;
+  border-bottom: 1px solid #CCC;
+}
+
+
+/* Footer */
+footer {
+  min-height: 150px;
+}
